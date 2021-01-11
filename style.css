@@ -14,6 +14,11 @@
     font-weight: bold;
 }
 
+/* Separate the sign in and sign up buttons */
+.nav-item {
+    margin: 0 0.5em 0 0.5em;
+}
+
 /* Make the body text lighter than gray for readability */
 p {
     color: antiquewhite;
@@ -36,8 +41,8 @@ footer {
 .hero-background-img {
     position: relative;
     background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .hero-background-img:after {

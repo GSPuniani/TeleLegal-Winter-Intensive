@@ -5,7 +5,8 @@
 /* Customize the navigation bar */
 .navbar {
     padding: 1rem;
-    background-color: rgb(28, 56, 85);
+    background-color: rgb(8, 51, 117);
+    /* green - background-color: rgba(18, 68, 6, 0.767); */
     font-size: 1.5em;
 }
 .navbar-brand {

@@ -80,31 +80,41 @@
   <!-- ORDER FORM -->
   <h3 class="bg-dark text-center pt-3 pb-5 mb-0">Fill out this form, and a qualified attorney will email you at the provided address.</h3>
   <form class="bg-dark mb-0">
-    <div class="form-group row">
-      <label for="name" class="col-sm-2 offset-sm-1 col-form-label mt-5">Name</label>
-      <div class="col-sm-6">
-        <input type="text" class="form-control mt-5 mb-5" id="name">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="city" class="col-sm-2 offset-sm-1 col-form-label mt-5">City of Residence</label>
-      <div class="col-sm-6">
-        <input type="text" class="form-control mt-5 mb-5" id="city">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputEmail" class="col-sm-2 offset-sm-1 col-form-label mt-5">Email Address</label>
-      <div class="col-sm-6">
-        <input type="email" class="form-control mt-5 mb-5" id="inputEmail">
-      </div>
-    </div>
-    <div class="form-group">
-        <label for="description" class="offset-sm-1">Description of Case or Issue (include location and date, if applicable)</label>
-        <textarea class="form-control col-sm-10 offset-sm-1 mb-5" id="description" rows="3"></textarea>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="form-group row">
+					<label for="name" class="col-sm-3 col-form-label mt-5">Full Name</label>
+					<div class="col-sm-5">
+					  <input type="text" class="form-control mt-5 mb-5" id="name">
+					</div>
+				  </div>
+				  <div class="form-group row">
+					<label for="city" class="col-sm-3 col-form-label mt-5">City of Residence</label>
+					<div class="col-sm-5">
+					  <input type="text" class="form-control mt-5 mb-5" id="city">
+					</div>
+				  </div>
+				  <div class="form-group row">
+					<label for="inputEmail" class="col-sm-3 col-form-label mt-5">Email Address</label>
+					<div class="col-sm-5">
+					  <input type="email" class="form-control mt-5 mb-5" id="inputEmail">
+					</div>
+				  </div>
+			</div>
+			<div class="col-sm-6">
+				<div class="form-group">
+					<label for="description" class="offset-sm-1">Description of Case or Issue (include location and date, if applicable)</label>
+					<textarea class="form-control col-sm-10 offset-sm-1 mb-5" id="description" rows="16"></textarea>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    
     <div class="form-group row mb-0">
       <div class="col-sm-2 offset-sm-5">
-        <button type="button" class="btn btn-primary mb-3" data-toggle="modal" data-target="#submitModal">Submit Request</button>
+        <button type="button" class="btn btn-primary mt-2 mb-5" data-toggle="modal" data-target="#submitModal">Submit Request</button>
       </div>
     </div>
   </form>

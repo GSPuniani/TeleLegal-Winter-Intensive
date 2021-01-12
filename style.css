@@ -25,6 +25,10 @@ p {
     margin-bottom: 3em;
 }
 
+a {
+    color: rgb(86, 143, 230);
+}
+
 /* Customize the footer */
 footer {
     padding: 0.1rem;
